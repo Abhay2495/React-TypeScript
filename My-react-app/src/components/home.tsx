@@ -1,7 +1,4 @@
 import React from "react";
-import ContactUS from "./contactUS";
-import AboutUs from "./aboutUs";
-
 
 const Home = () => {
     return (
