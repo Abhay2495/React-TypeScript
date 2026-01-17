@@ -1,0 +1,106 @@
+.dashboard-card {
+  width: 600px;
+  border: 2px solid #333;
+  border-radius: 8px;
+  padding: 16px;
+  font-family: Arial, sans-serif;
+  background-color: #ffffff;
+  margin-top: 2rem;
+  margin-left: 30%;
+}
+
+.dashboard-header {
+  display: flex;
+  align-items: center;
+  border-bottom: 2px solid #333;
+  padding-bottom: 8px;
+  margin-bottom: 12px;
+  justify-content: center;
+}
+
+.dashboard-header h2 {
+  font-size: 18px;
+  margin: 0;
+}
+
+.flower {
+  font-size: 22px;
+  margin-right: 8px;
+}
+
+.dashboard-body {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+ margin-bottom: 1.5rem;
+ margin-top: 1.5rem;
+
+}
+
+.info-row {
+  display: flex;
+  justify-content: space-between;
+  font-size: 15px;
+}
+
+
+.stats-grid {
+   border-top: 2px solid #333;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 15px;
+  margin-bottom: 1.5rem;
+   border-bottom: 2px solid #333;
+
+}
+
+.stat-card {
+  margin-top:20%;
+  background:#ffffff;
+  border-radius: 8px;
+  padding: 20px;
+  text-align: center;
+  border: 1px solid #ddd;
+  
+}
+
+.stat-card.alert {
+  border-left: 6px solid #e63946;
+}
+
+.stat-value {
+  font-size: 32px;
+  font-weight: bold;
+  display: block;
+}
+
+.stat-title {
+  font-size: 14px;
+  color: #555;
+}
+
+.skill-health {
+  background: #ffffff;
+  border-radius: 8px;
+  padding: 16px;
+  border: 1px solid #ddd;
+   margin-top: 1.5rem;
+}
+
+.skill-health h3 {
+  margin-bottom: 10px;
+}
+
+.skill-health ul {
+  list-style: none;
+  padding: 0;
+}
+
+.skill-health li {
+  padding: 6px 0;
+  font-weight: 500;
+  margin-left: 6%;
+}
+
+
+

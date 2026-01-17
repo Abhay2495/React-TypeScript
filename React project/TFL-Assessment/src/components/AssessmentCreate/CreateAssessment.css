@@ -1,0 +1,94 @@
+.assessment-container {
+  max-width: 700px;
+  margin: auto;
+  padding: 24px;
+  background: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  font-family: "Segoe UI", sans-serif;
+  margin-top: 5%;
+}
+
+.assessment-title {
+  text-align: center;
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.form-row {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+  gap: 15px;
+}
+
+.form-row label {
+  min-width: 160px;
+  font-weight: 600;
+}
+
+select,
+input[type="number"] {
+  padding: 6px 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+.checkbox-group {
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.checkbox-group label {
+  font-weight: normal;
+}
+
+.pill-group {
+  display: flex;
+  gap: 10px;
+}
+
+.pill {
+  padding: 6px 14px;
+  border-radius: 20px;
+  border: 1px solid #ccc;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.pill.active {
+  background: #457b9d;
+  color: white;
+  border-color: #457b9d;
+}
+
+.difficulty {
+  font-size: 14px;
+  color: #444;
+}
+
+.action-buttons {
+  display: flex;
+  justify-content: flex-end;
+  gap: 15px;
+  margin-top: 25px;
+}
+
+button {
+  padding: 10px 18px;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+button.primary {
+  background: #2a9d8f;
+  color: white;
+}
+
+button.secondary {
+  background: #e9ecef;
+  color: #333;
+}
